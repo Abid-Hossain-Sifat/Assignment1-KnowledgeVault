@@ -52,4 +52,84 @@
 }
 
 /* end header style  */
-
+.banner-sec {
+    height: 674px;
+    padding: 70px 120px 134px;
+    background-image: url(./resource/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-sec .banner-container {
+    text-align: center;
+}
+.banner-content {
+    margin-bottom: 32px;
+}
+.banner-content .b-title {
+   padding: 8px 12px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    width: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    border-radius: 1000px;
+}
+.banner-content .b-title p {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.banner-content .cntn h1{
+    width: 770px;
+    margin: 16px auto;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+    
+}
+.banner-content .cntn h1 .bspan {
+    color: #469165;
+}
+.banner-content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.b-cntn {
+    display: flex;
+    gap: 16px;
+}
+.bbtn1, .bbtn2 {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.bbtn1 {
+    background-color: #469165;
+    border: none;
+    border-radius: 12px;
+}
+.bbtn1:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.bbtn2 {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+}
+.bbtn2:hover {
+    background-color: #469165;
+    border: 2px solid transparent;
+}
