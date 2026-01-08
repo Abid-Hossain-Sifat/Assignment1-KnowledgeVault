@@ -8,8 +8,13 @@
 /* Header part  */
 
 .header-sec {
-    padding: 16px 120px;
+    
     background-color: #FFFFFF;
+}
+.container {
+    width: 80%;
+    max-width: 1900px;
+    margin: 0px auto;
 }
 .header-sec .header-container {
     display: flex;
@@ -54,8 +59,8 @@
 /* end header style  */
 .banner-sec {
     height: 674px;
-    padding: 70px 120px 134px;
-    background-image: url(./resource/hero-bg.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.275)),
+    url(./resource/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -136,12 +141,12 @@
 /* banner end  */
 
 /* note card sec  */
-.card-sec {
-    padding: 0 120px;
+.nc-container {
+    margin-top: 50px;
 }
 
 .note-content{
-    margin-top: 45px;
+    
     text-align: center;
 }
 .note-content h2 {
@@ -160,13 +165,10 @@
     gap: 24px ;
     justify-content: space-between;
 }
-.card-container .card {
-    background-color: #FFFFFF;
-}
-.card-container {
-  display: flex;
-  gap: 24px;
-}
+
+
+
+
 .card {
   background-color: #ffffff;
   width: 322px;
@@ -196,3 +198,44 @@
   color: #627382;
 }
 /* note card sec end  */
+
+/* brain section  */
+.brain {
+    margin: 120px auto;
+}
+.brain-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.brain-cntnt h6 {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.brain-cntnt h2 {
+    color: #001931;
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+.brain-cntnt p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 36px;
+}
+.brain-cntnt .chck-circle {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.chck-circle li {
+    list-style: none;
+    color: #001931;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500px;
+    
+}
+/* brain end  */
