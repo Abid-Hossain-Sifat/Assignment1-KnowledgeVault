@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+/* Header part  */
+
+.header-sec {
+    padding: 16px 120px;
+    background-color: #FFFFFF;
+}
+.header-sec .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-container .nav-li {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.header-container .nav-li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 152%;
+}
+.header-container .nav-li a li {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 152%;
+}
+.header-btn .h-btn {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.header-btn .h-btn:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #469165;
+    color: #469165;
+}
+
+/* end header style  */
+
