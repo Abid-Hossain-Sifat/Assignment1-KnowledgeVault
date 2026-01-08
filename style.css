@@ -133,3 +133,66 @@
     background-color: #469165;
     border: 2px solid transparent;
 }
+/* banner end  */
+
+/* note card sec  */
+.card-sec {
+    padding: 0 120px;
+}
+
+.note-content{
+    margin-top: 45px;
+    text-align: center;
+}
+.note-content h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note.content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: 627382;
+}
+.card-container {
+    margin-top: 44px;
+    display: flex;
+    gap: 24px ;
+    justify-content: space-between;
+}
+.card-container .card {
+    background-color: #FFFFFF;
+}
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  background-color: #ffffff;
+  width: 322px;
+  padding: 50px 24px;
+  text-align: center;
+  box-shadow: 0 0 4px 0 #00000018;
+  border-radius: 8px;
+}
+.card .circle {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #f95555;
+  border-radius: 50%;
+}
+.circle img {
+  width: 32px;
+  margin: 35px auto;
+}
+.card h3 {
+  font-size: 24px;
+  color: #001931;
+  margin: 16px 0;
+}
+.card p {
+  font-size: 14px;
+  color: #627382;
+}
+/* note card sec end  */
